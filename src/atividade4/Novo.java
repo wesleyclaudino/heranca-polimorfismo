@@ -1,0 +1,23 @@
+package atividade4;
+
+/**
+ * @author Wesley Claudino Rodrigues - 0014950
+ **/
+public class Novo extends Imovel {
+	private double taxa;
+
+	// Método construtor com as RN's
+	public Novo(double preco, double taxa) {
+		// Inserindo uma taxa de 10% no preço
+		this.setPreco(preco + (preco * taxa));
+	}
+
+	// Getters e Setters
+	public double getTaxa() {
+		return taxa;
+	}
+
+	public void setTaxa(double taxa) {
+		this.taxa = taxa;
+	}
+}
