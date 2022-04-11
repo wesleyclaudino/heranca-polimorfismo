@@ -1,7 +1,8 @@
 package atividade4;
 
 /**
- * @author Wesley Claudino Rodrigues - 0014950
+ * @author Wesley Claudino Rodrigues
+ * @author Matheus André Pereira Góes
  **/
 public class Velho extends Imovel {
 	private double desconto;
