@@ -7,7 +7,7 @@ package atividade2;
 //Implementando a classe gato
 public class Gato extends Animal {
 	// Método de miar do gato
-	public void mia() {
+	public void comunica() {
 		System.out.println("Miau! Miau!");
 	}
 }

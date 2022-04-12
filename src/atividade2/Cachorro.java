@@ -7,7 +7,7 @@ package atividade2;
 //Implementando a classe cachorro
 public class Cachorro extends Animal {
 	// Método de latir do cachorro
-	public void late() {
+	public void comunica() {
 		System.out.println("Au! Au!");
 	}
 }

@@ -8,7 +8,8 @@ import atividade1.Tecnico;
 /**
  * @author Wesley Claudino Rodrigues
  * @author Matheus André Pereira Góes
- * **/
+ **/
+//Classe para teste da letra a da atividade 5
 public class Teste {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

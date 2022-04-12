@@ -24,6 +24,9 @@ public class Animal {
 		return !this.nome.equals("Nome não definido!") ? this.nome + "caminhando..." : "caminhando...";
 	}
 	
+	// Método de comunicação do animal
+	public void comunica() {};
+	
 	// Getters e Setters
 	public String getRaca() {
 		return raca;
