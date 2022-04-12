@@ -7,17 +7,23 @@ package atividade2;
 //Implementando a classe rica
 public class Rica extends Pessoa {
 	private double dinheiro;
-	
+
 	// Método para o ato de fazer compras da classe Rica
-	public void fazNaSemana() {
+	public void fazCompras() {
 		System.out.println("Fazendo compras...");
-		
+
+	}
+
+	// Método para o que faz na semana
+	public void fazNaSemana() {
+		fazCompras();
 	}
 
 	// Getters e Setters
 	public double getDinheiro() {
 		return dinheiro;
 	}
+
 	public void setDinheiro(double dinheiro) {
 		this.dinheiro = dinheiro;
 	}
