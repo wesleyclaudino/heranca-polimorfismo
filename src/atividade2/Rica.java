@@ -9,11 +9,12 @@ public class Rica extends Pessoa {
 	private double dinheiro;
 	
 	// Método para o ato de fazer compras da classe Rica
-	public void fazCompras() {
+	public void fazNaSemana() {
 		System.out.println("Fazendo compras...");
 		
 	}
 
+	// Getters e Setters
 	public double getDinheiro() {
 		return dinheiro;
 	}

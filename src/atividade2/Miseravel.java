@@ -5,9 +5,9 @@ package atividade2;
  * @author Matheus André Pereira Góes
  **/
 //Implementando a classe miserável
-public class Miseravel {
+public class Miseravel extends Pessoa {
 	// Método de mendigar do miserável
-	public void mendiga() {
+	public void fazNaSemana() {
 		System.out.println("Mendigando...");
 	}
 }

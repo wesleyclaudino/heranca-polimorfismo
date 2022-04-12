@@ -14,6 +14,8 @@ public class Pessoa {
 		this.setNome("Nome não definido!");
 		this.setIdade(0);
 	}
+	
+	public void fazNaSemana() {};
 
 	// Getters e Setters
 	public String getNome() {

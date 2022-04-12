@@ -5,9 +5,9 @@ package atividade2;
  * @author Matheus André Pereira Góes
  **/
 //Implementando a classe pobre
-public class Pobre {
+public class Pobre extends Pessoa {
 	// Método para o ato de trabalhar do pobre
-	public void trabalha() {
+	public void fazNaSemana() {
 		System.out.println("Trabalhando...");
 	}
 }
