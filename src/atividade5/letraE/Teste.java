@@ -5,6 +5,7 @@ import java.util.Scanner;
 import atividade4.Imovel;
 import atividade4.Novo;
 import atividade4.Velho;
+import exceptions.EscolhaException;
 
 /**
  * @author Wesley Claudino Rodrigues
@@ -12,7 +13,7 @@ import atividade4.Velho;
  **/
 //Classe para teste da letra E da atividade 5
 public class Teste {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws EscolhaException {
 		Scanner scan = new Scanner(System.in);
 		Imovel imovel = null;
 		
@@ -30,6 +31,8 @@ public class Teste {
 		case 2:
 			imovel = new Velho();
 			break;
+		default:
+			throw new EscolhaException("A escolha requerida não existe");
 		}
 		
 		// Imprimindo valor final do imóvel

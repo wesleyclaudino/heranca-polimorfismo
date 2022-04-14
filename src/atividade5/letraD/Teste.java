@@ -7,6 +7,7 @@ import atividade3.CamaroteSuperior;
 import atividade3.Ingresso;
 import atividade3.Normal;
 import atividade3.Vip;
+import exceptions.EscolhaException;
 
 /**
  * @author Wesley Claudino Rodrigues
@@ -14,7 +15,7 @@ import atividade3.Vip;
  **/
 //Classe para teste da letra D da atividade 5
 public class Teste {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws EscolhaException {
 		Scanner scan = new Scanner(System.in);
 		Ingresso ingresso = null;
 
@@ -42,14 +43,18 @@ public class Teste {
 			case 2:
 				ingresso = new CamaroteInferior();
 				break;
+			default:
+				throw new EscolhaException("A escolha requerida não existe");
 			}
 			break;
+		default:
+			throw new EscolhaException("A escolha requerida não existe");
 		}
 
 		// Imprimindo o tipo do ingresso
 		ingresso.imprimirTipo();
 		System.out.println(" escolhido.");
-		
+
 		// Imprimindo o valor do ingresso
 		ingresso.imprimeValorIngresso();
 	}

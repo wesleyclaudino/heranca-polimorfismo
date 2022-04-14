@@ -6,6 +6,7 @@ import atividade2.Miseravel;
 import atividade2.Pessoa;
 import atividade2.Pobre;
 import atividade2.Rica;
+import exceptions.EscolhaException;
 
 /**
  * @author Wesley Claudino Rodrigues
@@ -13,7 +14,7 @@ import atividade2.Rica;
  **/
 //Classe para teste da letra C da atividade 5
 public class Teste {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws EscolhaException {
 		Scanner scan = new Scanner(System.in);
 		Pessoa pessoa = null;
 
@@ -37,6 +38,8 @@ public class Teste {
 				pessoa = new Miseravel();
 				pessoa.fazNaSemana();
 				break;
+			default:
+				throw new EscolhaException("A escolha requerida não existe");
 		}
 	}
 }
