@@ -8,6 +8,12 @@ package atividade3;
 public class CamaroteInferior extends Vip {
 	String assento;
 	
+	// Método de impressão do tipo do ingresso vip
+		public void imprimirTipo() {
+			super.imprimirTipo();
+			System.out.print(" - Camarote Inferior");
+		}
+	
 	// Método para imprimir o assento
 	public void imprimirAssento() {
 		System.out.println(this.assento);

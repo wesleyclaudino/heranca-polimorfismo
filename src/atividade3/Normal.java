@@ -6,7 +6,8 @@ package atividade3;
  **/
 //Implementando a classe de ingresso normal
 public class Normal extends Ingresso {
+	// Método de impressão do tipo do ingresso
 	public void imprimirTipo() {
-		System.out.println("Ingresso Normal");
+		System.out.print("Ingresso Normal");
 	}
 }

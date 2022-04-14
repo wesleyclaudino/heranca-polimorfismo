@@ -6,17 +6,21 @@ package atividade3;
  **/
 //Implementando a classe de ingresso
 public class Ingresso {
-	private double valorIngresso;
-	
+	private double valorIngresso = 50;
+
 	// Método para exibição do valor do ingresso
 	public void imprimeValorIngresso() {
-		System.out.println(this.valorIngresso);
+		System.out.println("R$ " + this.valorIngresso);
 	}
-	
+
+	// Método de impressão do tipo do ingresso
+	public void imprimirTipo() {};
+
 	// Getters e Setters
 	public double getValorIngresso() {
 		return this.valorIngresso;
 	}
+
 	public void setValorIngresso(Double valor) {
 		this.valorIngresso = valor;
 	}
