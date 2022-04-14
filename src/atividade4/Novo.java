@@ -5,12 +5,12 @@ package atividade4;
  * @author Matheus André Pereira Góes
  **/
 public class Novo extends Imovel {
-	private double taxa;
-
+	private double taxa = getPreco() / 10;
+	
 	// Método construtor com as RN's
-	public Novo(double preco, double taxa) {
+	public Novo() {
 		// Inserindo uma taxa de 10% no preço
-		this.setPreco(preco + (preco * taxa));
+		this.setPreco(this.getPreco() + this.taxa);
 	}
 
 	// Getters e Setters

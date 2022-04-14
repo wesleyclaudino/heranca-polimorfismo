@@ -6,7 +6,12 @@ package atividade4;
  **/
 public class Imovel {
 	private String endereco;
-	private double preco;
+	private double preco = 200000;
+	
+	// Método para impressão do preço do imóvel
+	public void imprimePreco() {
+		System.out.println(getPreco());
+	}
 
 	// Getters e Setters
 	public String getEndereco() {

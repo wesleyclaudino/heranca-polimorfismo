@@ -8,6 +8,11 @@ import atividade3.Ingresso;
 import atividade3.Normal;
 import atividade3.Vip;
 
+/**
+ * @author Wesley Claudino Rodrigues
+ * @author Matheus André Pereira Góes
+ **/
+//Classe para teste da letra D da atividade 5
 public class Teste {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
